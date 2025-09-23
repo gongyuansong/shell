@@ -17,7 +17,7 @@ do
 		echo "$i 已安装"
 	fi
 done
-sudo apt update && sudo apt install snapd -y
+sudo apt update && sudo apt-get install snapd -y
 sudo snap install core
 sudo snap install shadowsocks-libev
 sudo mkdir -p /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev
